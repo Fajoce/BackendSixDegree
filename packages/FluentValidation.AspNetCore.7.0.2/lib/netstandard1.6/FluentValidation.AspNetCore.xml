@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FluentValidation.AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="M:FluentValidation.AspNetCore.CustomizeValidatorAttribute.ToValidatorSelector">
+            <summary>
+            Builds a validator selector from the options specified in the attribute's properties.
+            </summary>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.FluentValidationMvcExtensions.AddFluentValidation(Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder,System.Action{FluentValidation.AspNetCore.FluentValidationMvcConfiguration})">
+            <summary>
+                Adds Fluent Validation services to the specified
+                <see cref="T:Microsoft.Extensions.DependencyInjection.IMvcBuilder" />.
+            </summary>
+            <returns>
+                An <see cref="T:Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder" /> that can be used to further configure the
+                MVC services.
+            </returns>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.FluentValidationMvcExtensions.AddFluentValidation(Microsoft.Extensions.DependencyInjection.IMvcBuilder,System.Action{FluentValidation.AspNetCore.FluentValidationMvcConfiguration})">
+            <summary>
+                Adds Fluent Validation services to the specified
+                <see cref="T:Microsoft.Extensions.DependencyInjection.IMvcBuilder" />.
+            </summary>
+            <returns>
+                An <see cref="T:Microsoft.Extensions.DependencyInjection.IMvcBuilder" /> that can be used to further configure the
+                MVC services.
+            </returns>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.FluentValidationObjectModelValidator.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,System.Collections.Generic.IList{Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider})">
+            <summary>
+                Initializes a new instance of <see cref="T:FluentValidation.AspNetCore.FluentValidationObjectModelValidator" />.
+            </summary>
+        </member>
+        <member name="T:FluentValidation.AspNetCore.IValidatorInterceptor">
+            <summary>
+            Specifies an interceptor that can be used to provide hooks that will be called before and after MVC validation occurs.
+            </summary>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.IValidatorInterceptor.BeforeMvcValidation(Microsoft.AspNetCore.Mvc.ControllerContext,FluentValidation.ValidationContext)">
+            <summary>
+            Invoked before MVC validation takes place which allows the ValidationContext to be customized prior to validation.
+            It should return a ValidationContext object.
+            </summary>
+            <param name="controllerContext">Controller Context</param>
+            <param name="validationContext">Validation Context</param>
+            <returns>Validation Context</returns>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.IValidatorInterceptor.AfterMvcValidation(Microsoft.AspNetCore.Mvc.ControllerContext,FluentValidation.ValidationContext,FluentValidation.Results.ValidationResult)">
+            <summary>
+            Invoked after MVC validation takes place which allows the result to be customized.
+            It should return a ValidationResult.
+            </summary>
+            <param name="controllerContext">Controller Context</param>
+            <param name="validationContext">Validation Context</param>
+            <param name="result">The result of validation.</param>
+            <returns>Validation Context</returns>
+        </member>
+        <member name="M:FluentValidation.AspNetCore.ValidationResultExtension.AddToModelState(FluentValidation.Results.ValidationResult,Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.String)">
+            <summary>
+            Stores the errors in a ValidationResult object to the specified modelstate dictionary.
+            </summary>
+            <param name="result">The validation result to store</param>
+            <param name="modelState">The ModelStateDictionary to store the errors in.</param>
+            <param name="prefix">An optional prefix. If ommitted, the property names will be the keys. If specified, the prefix will be concatenatd to the property name with a period. Eg "user.Name"</param>
+        </member>
+    </members>
+</doc>

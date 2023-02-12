@@ -1,0 +1,5 @@
+C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\UnitTest\obj\Debug\UnitTest.pdb

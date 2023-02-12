@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj",
+        "projectName": "Acceso_Datos",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Persistence\\Persistence.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Persistence\\Persistence.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Repositories\\Repositories.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Repositories\\Repositories.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI.csproj",
+        "projectName": "SixDegreesItSolutionAPI",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI.csproj",
+        "packagesPath": "C:\\Users\\Nicoll\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\SixDegreesItSolutionAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\AccesoDatos\\Entities.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Domain\\Acceso_Datos.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Infraestructura\\Bussiness.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Persistence\\Persistence.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\Repositories\\Repositories.csproj"
+              },
+              "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\UnitTest\\UnitTest.csproj": {
+                "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\UnitTest\\UnitTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\UnitTest\\UnitTest.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "C:\\Users\\Nicoll\\source\\repos\\SixDegreesItSolutionAPI\\UnitTest\\UnitTest.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
