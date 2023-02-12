@@ -105,15 +105,15 @@ namespace SixDegreesItSolutionAPI.Controllers
             && u.password == usuarios.Password).FirstOrDefaultAsync();
             if (userAvailable == null)
             {
-                return Ok("Failure");
+                return StatusCode(StatusCodes.Status404NotFound,"Failure");
             }
             else if (userAvailable.TypeOfUserId == 1)
             {
-                return Ok("Admin");
+                return StatusCode(StatusCodes.Status200OK,"Admin");
             }
             else
             {
-                return Ok("Success");
+                return StatusCode(StatusCodes.Status200OK,"Success");
             }
         }
         #endregion Private Methods
