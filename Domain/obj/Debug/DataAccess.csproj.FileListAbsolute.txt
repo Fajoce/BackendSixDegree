@@ -184,4 +184,3 @@ C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\Domain\obj\Debug\DataAccess
 C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\Domain\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\Domain\obj\Debug\Domain.dll
 C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\Domain\obj\Debug\Domain.pdb
-C:\Users\Nicoll\source\repos\SixDegreesItSolutionAPI\Domain\obj\Debug\DataAccess.csproj.SuggestedBindingRedirects.cache

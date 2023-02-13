@@ -116,7 +116,33 @@ namespace SixDegreesItSolutionAPI.Controllers
                 return StatusCode(StatusCodes.Status200OK,"Success");
             }
         }
+        [HttpGet("Name/{name}")]
+       
+        public async Task<ActionResult<UserDTO>> GetByName(string Name)
+        {
+            var lst = await (from u in _context.Users
+                             join tu in _context.TypeOfUsers
+                            on u.TypeOfUserId equals tu.TypeOfUserId
+                             select new UserDTO
+                             {
+                                 UserId = u.UserId,
+                                 UserName = u.UserName,
+                                 UserLastName = u.UserLastName,
+                                 UserAdress = u.UserAdress,
+                                 UserTelephone = u.UserTelephone,
+                                 UserEmail = u.UserEmail,
+                                 TypeOfUserId = u.TypeOfUserId,
+                                 TypeOfUserName = tu.TypeOfUserName,
+                                 Password = u.password
+                             }).FirstOrDefaultAsync(u => u.UserName == Name);
+            if(lst != null)
+            {
+                return StatusCode(StatusCodes.Status200OK, lst);
+            }
+            return StatusCode(StatusCodes.Status404NotFound, "No existe");
+        }
         #endregion Private Methods
+
     }
 }
    
