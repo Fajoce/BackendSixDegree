@@ -28,8 +28,8 @@ namespace Repositories.Repository.Users
                            select new UserDTO
                            {
                                UserId = u.UserId,
-                               UserName = u.UserName,
-                               UserLastName = u.UserLastName,
+                               UserName = u.UserName + " " + (u.UserLastName),
+                               //UserLastName = u.UserLastName,
                                UserAdress = u.UserAdress,
                                UserTelephone = u.UserTelephone,
                                UserEmail = u.UserEmail,
